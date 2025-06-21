@@ -41,3 +41,5 @@ Online course of react native
 
 - [React Native Course for Beginners in 2025 | Build a Full Stack React Native App
 ](https://www.youtube.com/watch?v=f8Z9JyB2EIE): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides)
+
+Please, check your **TMDB Token/key environment**
