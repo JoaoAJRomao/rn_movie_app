@@ -36,12 +36,14 @@ const Search = () => {
       }
     }, 750);
     return () => clearTimeout(timeoutId);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchQuery]);
 
   useEffect(() => {
     if (movies?.length! > 0 && movies?.[0]) {
       updateSearchCount(searchQuery, movies[0]);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [movies]);
 
   return (
